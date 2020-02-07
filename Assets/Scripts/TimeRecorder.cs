@@ -60,6 +60,12 @@ public class TimeRecorder : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 记录一次行为的执行时间
+    /// </summary>
+    /// <param name="actionName">行为的名字</param>
+    /// <param name="action">行为</param>
+    /// <param name="unit">时间单位</param>
     public void Record(string actionName, Action action, RecordUnit unit = RecordUnit.Millisecond)
     {
         _CurrentRecordDepth++;
