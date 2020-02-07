@@ -12,12 +12,10 @@ A simple way to record time in Unity
 如下图所失，它们分别展示了：
 
 - 一次任务的记录
-
 - 嵌套任务的记录（记录中嵌套记录）
-
 - 递归任务的记录（套娃记录）
 
-  ![image-20200207153738788](C:\Users\64596\AppData\Roaming\Typora\typora-user-images\image-20200207153738788.png)
+![image-20200207153738788](.\Images\image-20200207153738788.png)
 
 ### 为什么要使用它
 
