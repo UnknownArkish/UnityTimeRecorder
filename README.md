@@ -72,10 +72,10 @@ DoTaskB();
 ```csharp
 TimeRecorder.Instance.Record( 
     "任务A", 
-	()=>{
-        // 任务A
-		DoTaskA();
-	}
+    ()=>{
+    // 任务A
+    	DoTaskA();
+    }
 );
 // 任务B
 DoTaskB();
@@ -86,7 +86,7 @@ DoTaskB();
 以下是更加具体的例子，假设有两个任务，一个任务几乎不耗时，另外一个任务耗时严重（这里使用循环模拟繁重任务）：
 
 ```csharp
-	// 模拟一项简单的任务，几乎不消耗时间
+    // 模拟一项简单的任务，几乎不消耗时间
     private void SimpleFunc() { }
     // 模拟一项繁重的任务，消耗很多时间
     private void HeavyFunc()
@@ -99,7 +99,7 @@ DoTaskB();
 它们在示例代码中的调用如下：
 
 ```csharp
-	private void TestSimpleFunc()
+    private void TestSimpleFunc()
     {
         SimpleFunc();
     }
