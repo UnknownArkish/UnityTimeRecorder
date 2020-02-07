@@ -1,4 +1,4 @@
-# UnityTimerRecorder
+# UnityTimeRecorder
 A simple way to record time in Unity
 
 ---
