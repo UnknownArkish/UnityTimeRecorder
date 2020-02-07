@@ -134,7 +134,7 @@ DoTaskB();
 
 如下图所示，是调用若干次<kbd>TestSimpleFunc</kbd>和<kbd>TestHeavyFunc</kbd>后，在<kbd>Inspector</kbd>上得到的结果：
 
-<img src="https://img-blog.csdnimg.cn/20200207025155485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_7#pic_center" alt="在这里插入图片描述" width="350" height="350" />
+<img src="https://img-blog.csdnimg.cn/20200207025155485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_7#pic_center" alt="single" width="350" height="350" />
 
 ### 嵌套记录/递归记录
 
@@ -163,7 +163,7 @@ DoTaskB();
 
 运行结果如下图所示，同样的你可以在<kbd>Inspector</kbd>上查看得到：
 
-<img src="https://img-blog.csdnimg.cn/2020020703000292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" width="350" height="350" />
+<img src="https://img-blog.csdnimg.cn/2020020703000292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_70#pic_center" alt="embedded" width="350" height="350" />
 
 - 可以很直观的发现<kbd>TestSimpleFunc</kbd>和<kbd>TestHeavyFunc</kbd>是<kbd>TestEmbeddedFunc</kbd>的子行为，以及它们各自的时间
 
@@ -187,4 +187,4 @@ DoTaskB();
 
 运行结果如下图所示（这里递归次数为5）：
 
-<img src="https://img-blog.csdnimg.cn/2020020703090555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述" width="350" height="350" />
+<img src="https://img-blog.csdnimg.cn/2020020703090555.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Fya2lzaA==,size_16,color_FFFFFF,t_70#pic_center" alt="Recursive" width="350" height="350" />
